@@ -1,0 +1,72 @@
+.record-list {
+    background-color: rgb(3, 214, 242);
+    height: 87vh;
+    border-collapse: collapse;
+}
+
+.record-list h3 {
+    font-size: 35px;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.record-list table {
+    width: 75%;
+    margin: 20px auto 0px auto;
+    border-collapse: collapse;
+}
+
+.record-list table thead tr th {
+    font-size: 30px;
+    text-align: center;
+    width: 25%;
+    padding: 10px;
+}
+
+.record-list th {
+    border: 1px solid;
+}
+
+.record-list td {
+    padding: 5px;
+    font-size: 25px;
+}
+
+.record-list table td button {
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    padding: 0px 25px;
+}
+
+.record-list #action {
+    display: flex;
+    justify-content: space-between;
+    
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.record-list .def {
+    border: 1px solid;
+}
+
+.record-list a {
+    padding: 5px 15px;
+    font-weight: 500;
+    align-self: center;
+    background-color: rgb(0, 255, 0);
+    color: white;
+    border-radius: 9px;
+    border: 1px solid;
+
+}
+
+.record-list .delete {
+    background-color: red;
+    color: white;
+    border-radius: 9px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}

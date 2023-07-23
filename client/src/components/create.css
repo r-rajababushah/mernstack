@@ -1,0 +1,60 @@
+.create {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.create h3 {
+    font-size: 35px;
+    display: block;
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    flex-basis: 1;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+.create form {
+    display: flex;
+    flex-direction: column;
+    height: 79vh;
+}
+
+.create form label {
+    font-size: 25px;
+    letter-spacing: 1.5px;
+}
+
+.create form input {
+    height: 45px;
+    width: 100%;
+    border-radius: 7px;
+    border:5px solid rgb(0, 255, 0);
+    outline: 1px solid rgb(0, 255, 0);
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.create form input::placeholder {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    background-color: white;
+    color: white;
+}
+
+.create form input[id="title"] {
+    margin-bottom: 15px;
+}
+
+.create form input[type="submit"] {
+    color: white;
+    height: 40px;
+    border-radius: 15px;
+    border: 5px solid black;
+    background-color: rgb(12, 194, 255);
+}

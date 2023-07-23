@@ -1,0 +1,24 @@
+.nav {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+#createtodo {
+    color: black;
+    font-weight: 200;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 15px;
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#home {
+    align-self: center;
+    color: black;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
