@@ -1,0 +1,10 @@
+{
+    "name": "TODO",
+    "framework": "Other",
+    "backend": {
+        "src": "./server"
+    },
+    "frontend": {
+        "src": "./client"
+    }
+}
