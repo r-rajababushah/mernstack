@@ -8,5 +8,8 @@
   "scripts": {
     "dev": "node server.mjs",
     "build": "yarn i "
+  },
+  "engines": {
+    "node": ">=14 <15"
   }
 }
